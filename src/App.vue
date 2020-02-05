@@ -1,13 +1,13 @@
 <template>
   <div class="h-screen w-width bg-blue-300 flex flex-col justify-center items-center">
     <div class="header">
-      <h1 class="text-4xl">Seth's Todo App With Tailwind</h1>
+      <h1 class="text-4xl">Seth's Todo App With Tailwind And Vue</h1>
       <div class="form flex">
         <input class="appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-non" id="newText" type="text" placeholder="Add New Todo"/>
         <button id="newBtn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">Add</button>
       </div>
     </div>
-    <div class="todos w-10/12 mt-8">
+    <div class="todos w-1/2 mt-8">
       <div class="pendings">
         <h3 class="text-2xl">Pendings:</h3>
         <ul id="pendingList">
